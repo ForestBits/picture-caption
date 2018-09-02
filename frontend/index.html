@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>0_0</title>
+        <link rel = "stylesheet" type = "text/css" href = "css/stylesheet.css">
+    </head>
+    <body>
+        <div id = "disconnected-state" class = "state-container">
+            <div class = "state-default-content-box">
+                <div class = "state-default-content-box-inner">
+                    <p class = "state-header">Disconnected</p>
+                    <p id = "disconnected-message-text"></p>
+                    <div id = "disconnected-button">
+                        <p id = "disconnected-button-text">Reload</p>
+                    </div>
+                 </div>
+            </div>
+        </div>
+        <div id = "start-state" class = "state-container">
+            <div class = "state-default-content-box">
+                <div class = "state-default-content-box-inner">
+                    <p id = "waiting-for-start-text" class = "state-header">Waiting for players to join...</p>
+                    <p id = "player-count-text"></p>
+                </div>
+            </div>
+        </div>
+        <div id = "name-selection-state" class = "state-container">
+            <p id = "name-selection-text" class = "state-header">Choose your name</p>
+            <div id = "name-input-container">
+                <input id = "name-input" type = "text" maxlength = "15" autocomplete = "off"/>
+            </div>
+            <div id = "name-selection-seconds-left-container">
+                <p id = "name-selection-seconds-left-text"></p>
+            </div>
+        </div>
+        <div id = "names-selected-state" class = "state-container">
+            <p id = "" class = "state-header">Let's see who we got</p>
+        </div>
+        <script src = "state.js"></script>
+        <script src = "disconnected-state.js"></script>
+        <script src = "start-state.js"></script>
+        <script src = "name-selection-state.js"></script>
+        <script src = "names-selected-state.js"></script>
+        <script src = "timer.js"></script>
+        <script src = "game.js"></script>
+
+    </body>
+</html>

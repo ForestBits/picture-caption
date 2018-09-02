@@ -1,0 +1,145 @@
+@font-face
+{
+    font-family: Gaegu-Bold;
+    src: url(../res/Gaegu-Bold.ttf)
+}
+
+/*reset default styling*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.state-container
+{
+    display: none;
+    min-height: 100vh;
+    font-family: Gaegu-Bold;
+    background-image: url(../res/img/background.png);
+}
+
+.state-container-active
+{
+    display: block;
+}
+
+.state-header
+{
+    font-size: 4em;
+    text-align: center;
+}
+
+.content-box
+{
+    background-color: white;
+    border-radius: 30px;
+}
+
+.state-default-content-box
+{
+    padding-top: 1px;
+    color: black;
+}
+
+.state-default-content-box-inner
+{
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 40px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+#disconnected-state
+{
+    background-color: white;
+    text-align: center;
+}
+
+#disconnected-state-content-box
+{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#disconnected-message-text
+{
+    font-size: 2.5em;
+}
+
+#disconnected-button
+{
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 25px;
+    background-color: rgb(112, 60, 255);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#disconnected-button:hover
+{
+    background-color: rgb(89, 31, 250);
+}
+
+#disconnected-button-text
+{
+    color: white;
+}
+
+#start-state
+{
+    background-color: rgb(0, 39, 102);
+    color: white;
+}
+
+#waiting-
+
+#name-selection-state
+{
+    background-color: rgb(0, 122, 102);
+    color: white;
+    text-align: center;
+}
+
+
+#player-count-text
+{
+    font-size: 2em;
+    text-align: center;
+}
+
+#name-input-container
+{
+    text-align: center
+}
+
+#name-input
+{
+    font-family: Gaegu-Bold;
+    font-size: 200%;
+    text-align: center;
+}
+
+#name-selection-seconds-left-container
+{
+    text-align: center;
+}
+
+#name-selection-seconds-left-text
+{
+    font-size: 2.5em;
+    margin-top: 1em;
+}
